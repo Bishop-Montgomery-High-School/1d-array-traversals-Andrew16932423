@@ -29,10 +29,10 @@ public class Reverser {
 
         while (left < right) {
             int temp = arr[left];
-            arr[right] = temp;
             arr[left] = arr[right];
-            right++;
+            arr[right] = temp;
             left++;
+            right--;
         }
 
         // TODO: declare int left = 0 and int right = arr.length - 1
