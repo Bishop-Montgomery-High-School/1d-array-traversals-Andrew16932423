@@ -23,7 +23,7 @@ public class Shifter {
             arr[arr.length-1] = 0;
     }
 
-    /**
+    /***
      * Shifts all elements one position to the RIGHT.
      * The element at index arr.length - 1 is discarded.
      * The first position (index 0) is filled with 0.
