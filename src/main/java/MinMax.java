@@ -14,20 +14,22 @@ public class MinMax {
      *   arr = {4, 4, 4}        →  returns 4
      */
     public static int min(int[] arr) {
-        int t = arr[0];
-        for(int i = 1; i < arr.length; i++) {
-            if(arr[i] < t) {
-                t = arr[i];
+        int min = arr[0];
+
+        for (int num : arr) {
+            if (num < min) {
+                min = num;
             }
         }
+
+        return min;
+    }
 
 
         // TODO: loop from index 1 to arr.length - 1
         //       if arr[i] is less than your tracking variable, update it
 
-        // TODO: return the tracking variable
-        return t; // placeholder
-    }
+        // TODO: return the tracking variable// placeholder
 
     /***
      * Returns the largest value in the array.
