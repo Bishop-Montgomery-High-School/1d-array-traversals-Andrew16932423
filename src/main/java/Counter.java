@@ -1,6 +1,6 @@
 public class Counter {
 
-    /**
+    /***
      * Returns the number of elements strictly greater than the given threshold.
      *
      * Traversal strategy: initialize a counter to 0, then loop through

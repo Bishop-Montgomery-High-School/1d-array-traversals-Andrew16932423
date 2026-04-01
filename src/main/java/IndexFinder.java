@@ -19,7 +19,7 @@ public class IndexFinder {
     public static int indexOfMin(int[] arr) {
         // TODO: initialize a variable to track the index of the minimum (start at 0)
         int t = 0;
-        for(int i = 1; i <= (arr.length - 1); i++) {
+        for(int i = 1; i < arr.length; i++) {
             if(arr[i] < arr[t]) {
                 t = i;
             }
@@ -47,7 +47,7 @@ public class IndexFinder {
      */
     public static int indexOfMax(int[] arr) {
         int t = 0;
-        for(int i = 1; i <= (arr.length - 1); i++) {
+        for(int i = 1; i < arr.length; i++) {
             if(arr[i] > arr[t]) {
                 t = i;
             }

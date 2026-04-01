@@ -17,7 +17,7 @@ public class Shifter {
      *   {7}                   →  {0}
      */
     public static void shiftLeft(int[] arr) {
-        for (int i = 0; i <= arr.length - 2; i++) {
+        for (int i = 0; i < arr.length - 1; i++) {
             arr[i] = arr[i+1];
         }
             arr[arr.length-1] = 0;

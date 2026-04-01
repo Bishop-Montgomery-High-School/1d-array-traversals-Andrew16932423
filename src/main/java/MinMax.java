@@ -15,7 +15,7 @@ public class MinMax {
      */
     public static int min(int[] arr) {
         int t = arr[0];
-        for(int i = 1; i <= (arr.length - 1); i++) {
+        for(int i = 1; i < arr.length; i++) {
             if(arr[i] < t) {
                 t = arr[i];
             }
@@ -43,7 +43,7 @@ public class MinMax {
      */
     public static int max(int[] arr) {
         int t = arr[0];
-        for(int i = 1; i <= (arr.length - 1); i++) {
+        for(int i = 1; i < arr.length; i++) {
             if(arr[i] > t) {
                 t = arr[i];
             }

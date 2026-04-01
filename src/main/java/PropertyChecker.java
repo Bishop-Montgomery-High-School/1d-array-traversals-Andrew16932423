@@ -1,6 +1,6 @@
 public class PropertyChecker {
 
-    /**
+    /***
      * Returns true if at least one element in the array is positive (> 0),
      * false otherwise.
      *

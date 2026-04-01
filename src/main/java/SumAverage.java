@@ -1,6 +1,6 @@
 public class SumAverage {
 
-    /***
+    /**
      * Returns the sum of all elements in the array.
      *
      * Traversal strategy: initialize an accumulator to 0 before
