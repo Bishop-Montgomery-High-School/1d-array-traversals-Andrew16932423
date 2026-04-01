@@ -13,7 +13,7 @@ public class MinMax {
      *   arr = {5, 3, 8, 1, 6}  →  returns 1
      *   arr = {4, 4, 4}        →  returns 4
      */
-    public int min(int[] arr) {
+    public static int min(int[] arr) {
         int t = arr[0];
         for(int i = 1; i <= (arr.length - 1); i++) {
             if(arr[i] < t) {
@@ -41,7 +41,7 @@ public class MinMax {
      *   arr = {5, 3, 8, 1, 6}  →  returns 8
      *   arr = {-2, -5, -1}     →  returns -1
      */
-    public int max(int[] arr) {
+    public static int max(int[] arr) {
         int t = arr[0];
         for(int i = 1; i <= (arr.length - 1); i++) {
             if(arr[i] > t) {

@@ -23,7 +23,7 @@ public class Reverser {
      *   {1, 2, 3, 4}     →  {4, 3, 2, 1}
      *   {42}             →  {42}
      */
-    public void reverse(int[] arr) {
+    public static void reverse(int[] arr) {
         int left = 0;
         int right = arr.length - 1;
 

@@ -16,7 +16,7 @@ public class PropertyChecker {
      *   arr = {-5, 0, -1}      →  returns false   (none are > 0)
      *   arr = {7, 8, 9}        →  returns true
      */
-    public boolean hasPositive(int[] arr) {
+    public static boolean hasPositive(int[] arr) {
         boolean f = false;
         for (int i: arr) {
             if (i > 0) {
@@ -49,7 +49,7 @@ public class PropertyChecker {
      *   arr = {1, 5, -3, 8}  →  returns false   (-3 is not > 0)
      *   arr = {0, 2, 4}      →  returns false   (0 is not > 0)
      */
-    public boolean allPositive(int[] arr) {
+    public static boolean allPositive(int[] arr) {
         boolean f = true;
         for (int i: arr) {
             if (!(i > 0)) {

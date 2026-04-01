@@ -67,7 +67,7 @@ public class Counter {
      *   arr = {4, 2, 4, 7, 4}, target = 4  →  returns 3
      *   arr = {1, 2, 3},       target = 9  →  returns 0
      */
-    public int countEqual(int[] arr, int target) {
+    public static int countEqual(int[] arr, int target) {
         // TODO: initialize a counter to 0
         int counter = 0;
         // TODO: loop through arr

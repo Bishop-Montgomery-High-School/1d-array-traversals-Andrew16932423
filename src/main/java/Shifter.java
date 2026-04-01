@@ -16,7 +16,7 @@ public class Shifter {
      *   {10, 20, 30, 40, 50}  →  {20, 30, 40, 50, 0}
      *   {7}                   →  {0}
      */
-    public void shiftLeft(int[] arr) {
+    public static void shiftLeft(int[] arr) {
         for (int i = 0; i <= arr.length - 2; i++) {
             arr[i] = arr[i+1];
         }
@@ -42,7 +42,7 @@ public class Shifter {
      *   {10, 20, 30, 40, 50}  →  {0, 10, 20, 30, 40}
      *   {7}                   →  {0}
      */
-    public void shiftRight(int[] arr) {
+    public static void shiftRight(int[] arr) {
         for (int i = arr.length -1; i >= 1; i--) {
             arr[i] = arr[i-1];
         }

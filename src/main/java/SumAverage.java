@@ -13,7 +13,7 @@ public class SumAverage {
      *   arr = {3, 7, 2, 8, 5}  →  returns 25
      *   arr = {-4, 10, -6}     →  returns 0
      */
-    public int sum(int[] arr) {
+    public static int sum(int[] arr) {
         int accumulator = 0;
         for(int i : arr) {
             accumulator += i;
@@ -36,7 +36,7 @@ public class SumAverage {
      *   arr = {1, 2, 3, 4}     →  returns 2   (10 / 4 = 2, truncated)
      *   arr = {-4, 10, -6}     →  returns 0   (0 / 3 = 0)
      */
-    public int average(int[] arr) {
+    public static int average(int[] arr) {
         int sum = sum(arr);
         int i = sum/arr.length;
         return i; // placeholder

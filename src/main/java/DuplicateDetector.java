@@ -23,7 +23,7 @@ public class DuplicateDetector {
      *
      * @return
      */
-    public boolean hasDuplicate(int[] arr) {
+    public static boolean hasDuplicate(int[] arr) {
         // TODO: initialize a boolean flag to false
 
         boolean flag = false;

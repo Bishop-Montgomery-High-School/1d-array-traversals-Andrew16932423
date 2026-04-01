@@ -16,7 +16,7 @@ public class IndexFinder {
      *   arr = {5, 3, 8, 1, 6}  →  returns 3  (value 1 is at index 3)
      *   arr = {2, 9, 2, 5}     →  returns 0  (first occurrence of 2)
      */
-    public int indexOfMin(int[] arr) {
+    public static int indexOfMin(int[] arr) {
         // TODO: initialize a variable to track the index of the minimum (start at 0)
         int t = 0;
         for(int i = 1; i <= (arr.length - 1); i++) {
@@ -45,7 +45,7 @@ public class IndexFinder {
      *   arr = {5, 3, 8, 1, 6}  →  returns 2  (value 8 is at index 2)
      *   arr = {9, 2, 9, 5}     →  returns 0  (first occurrence of 9)
      */
-    public int indexOfMax(int[] arr) {
+    public static int indexOfMax(int[] arr) {
         int t = 0;
         for(int i = 1; i <= (arr.length - 1); i++) {
             if(arr[i] > arr[t]) {
