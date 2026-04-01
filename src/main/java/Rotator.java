@@ -1,7 +1,7 @@
 public class Rotator {
 
 
-    /**
+    /***
      * Rotates all elements one position to the LEFT.
      * The element at index 0 wraps around to the last position.
      * The original array is modified in place; nothing is returned.

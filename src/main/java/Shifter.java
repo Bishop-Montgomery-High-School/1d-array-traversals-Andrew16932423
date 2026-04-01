@@ -1,6 +1,6 @@
 public class Shifter {
 
-    /**
+    /***
      * Shifts all elements one position to the LEFT.
      * The element at index 0 is discarded.
      * The last position (index arr.length - 1) is filled with 0.

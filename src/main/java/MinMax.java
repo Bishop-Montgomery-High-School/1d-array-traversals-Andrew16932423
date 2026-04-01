@@ -1,6 +1,6 @@
 public class MinMax {
 
-    /**
+    /***
      * Returns the smallest value in the array.
      *
      * Traversal strategy: initialize your tracking variable to arr[0],

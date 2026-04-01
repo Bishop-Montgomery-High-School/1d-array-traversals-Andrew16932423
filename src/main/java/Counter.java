@@ -13,7 +13,7 @@ public class Counter {
      *   arr = {3, 7, 2, 8, 5}, threshold = 4  →  returns 3  (7, 8, 5)
      *   arr = {1, 2, 3},       threshold = 5  →  returns 0
      */
-    public int countAbove(int[] arr, int threshold) {
+    public static int countAbove(int[] arr, int threshold) {
         // TODO: initialize a counter to 0
         int counter = 0;
 
@@ -41,7 +41,7 @@ public class Counter {
      *   arr = {3, 7, 2, 8, 5}, threshold = 4  →  returns 2  (3, 2)
      *   arr = {6, 7, 8},       threshold = 5  →  returns 0
      */
-    public int countBelow(int[] arr, int threshold) {
+    public static int countBelow(int[] arr, int threshold) {
         // TODO: initialize a counter to 0
         int counter = 0;
         // TODO: loop through arr
