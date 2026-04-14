@@ -1,6 +1,7 @@
 public class SumAverage {
 
-    /***
+
+    /**
      * Returns the sum of all elements in the array.
      *
      * Traversal strategy: initialize an accumulator to 0 before
@@ -13,13 +14,14 @@ public class SumAverage {
      *   arr = {3, 7, 2, 8, 5}  →  returns 25
      *   arr = {-4, 10, -6}     →  returns 0
      */
-    public static int sum(int[] arr) {
+    public int sum(int[] arr) {
         int accumulator = 0;
         for(int i : arr) {
             accumulator += i;
         }
         return accumulator; // placeholder
     }
+
 
     /**
      * Returns the integer average (mean) of all elements in the array,
@@ -36,9 +38,11 @@ public class SumAverage {
      *   arr = {1, 2, 3, 4}     →  returns 2   (10 / 4 = 2, truncated)
      *   arr = {-4, 10, -6}     →  returns 0   (0 / 3 = 0)
      */
-    public static int average(int[] arr) {
+    public int average(int[] arr) {
         int sum = sum(arr);
         int i = sum/arr.length;
         return i; // placeholder
     }
 }
+
+

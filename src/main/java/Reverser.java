@@ -1,6 +1,7 @@
 public class Reverser {
 
-    /***
+
+    /**
      * Reverses the order of elements in the array in place.
      * The original array is modified; nothing is returned.
      *
@@ -23,9 +24,10 @@ public class Reverser {
      *   {1, 2, 3, 4}     →  {4, 3, 2, 1}
      *   {42}             →  {42}
      */
-    public static void reverse(int[] arr) {
+    public void reverse(int[] arr) {
         int left = 0;
         int right = arr.length - 1;
+
 
         while (left < right) {
             int temp = arr[left];
@@ -35,7 +37,9 @@ public class Reverser {
             right--;
         }
 
+
         // TODO: declare int left = 0 and int right = arr.length - 1
+
 
         // TODO: write a while loop that continues as long as left < right
         //   Inside the loop:

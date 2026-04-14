@@ -1,6 +1,7 @@
 public class Shifter {
 
-    /***
+
+    /**
      * Shifts all elements one position to the LEFT.
      * The element at index 0 is discarded.
      * The last position (index arr.length - 1) is filled with 0.
@@ -16,12 +17,13 @@ public class Shifter {
      *   {10, 20, 30, 40, 50}  →  {20, 30, 40, 50, 0}
      *   {7}                   →  {0}
      */
-    public static void shiftLeft(int[] arr) {
+    public void shiftLeft(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             arr[i] = arr[i+1];
         }
-            arr[arr.length-1] = 0;
+        arr[arr.length-1] = 0;
     }
+
 
     /***
      * Shifts all elements one position to the RIGHT.
@@ -42,10 +44,10 @@ public class Shifter {
      *   {10, 20, 30, 40, 50}  →  {0, 10, 20, 30, 40}
      *   {7}                   →  {0}
      */
-    public static void shiftRight(int[] arr) {
+    public void shiftRight(int[] arr) {
         for (int i = arr.length -1; i >= 1; i--) {
             arr[i] = arr[i-1];
         }
-            arr[0]=0;
+        arr[0]=0;
     }
 }

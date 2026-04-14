@@ -1,6 +1,7 @@
 public class DuplicateDetector {
 
-    /**
+
+    /***
      * Returns true if any two elements in the array are equal to each other,
      * false if all elements are distinct.
      * <p>
@@ -23,8 +24,9 @@ public class DuplicateDetector {
      *
      * @return
      */
-    public static boolean hasDuplicate(int[] arr) {
+    public boolean hasDuplicate(int[] arr) {
         // TODO: initialize a boolean flag to false
+
 
         boolean flag = false;
         for (int i = 0; i < arr.length - 1; i++) {
@@ -34,7 +36,7 @@ public class DuplicateDetector {
                 }
             }
         }
-            // placeholder
+        // placeholder
         return flag;
     }
 }

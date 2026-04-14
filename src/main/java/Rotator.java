@@ -17,7 +17,7 @@ public class Rotator {
      *   {10, 20, 30, 40, 50}  →  {20, 30, 40, 50, 10}
      *   {7}                   →  {7}
      */
-    public static void rotateLeft(int[] arr) {
+    public void rotateLeft(int[] arr) {
         // TODO: save arr[0] into a temporary variable
         int temp = arr[0];
 
@@ -52,7 +52,7 @@ public class Rotator {
      *   {10, 20, 30, 40, 50}  →  {50, 10, 20, 30, 40}
      *   {7}                   →  {7}
      */
-    public static void rotateRight(int[] arr) {
+    public void rotateRight(int[] arr) {
         int temp = arr[arr.length - 1];
         for (int i = arr.length - 1; i >= 1; i--) {
             arr[i] = arr[i - 1];

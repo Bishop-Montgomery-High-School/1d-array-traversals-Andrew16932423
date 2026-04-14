@@ -1,6 +1,7 @@
 public class MinMax {
 
-    /***
+
+    /**
      * Returns the smallest value in the array.
      *
      * Traversal strategy: initialize your tracking variable to arr[0],
@@ -13,8 +14,9 @@ public class MinMax {
      *   arr = {5, 3, 8, 1, 6}  →  returns 1
      *   arr = {4, 4, 4}        →  returns 4
      */
-    public static int min(int[] arr) {
+    public int min(int[] arr) {
         int min = arr[0];
+
 
         for (int num : arr) {
             if (num < min) {
@@ -22,14 +24,19 @@ public class MinMax {
             }
         }
 
+
         return min;
     }
 
 
-        // TODO: loop from index 1 to arr.length - 1
-        //       if arr[i] is less than your tracking variable, update it
 
-        // TODO: return the tracking variable// placeholder
+
+    // TODO: loop from index 1 to arr.length - 1
+    //       if arr[i] is less than your tracking variable, update it
+
+
+    // TODO: return the tracking variable// placeholder
+
 
     /***
      * Returns the largest value in the array.
@@ -43,7 +50,7 @@ public class MinMax {
      *   arr = {5, 3, 8, 1, 6}  →  returns 8
      *   arr = {-2, -5, -1}     →  returns -1
      */
-    public static int max(int[] arr) {
+    public int max(int[] arr) {
         int t = arr[0];
         for(int i = 1; i < arr.length; i++) {
             if(arr[i] > t) {
@@ -51,10 +58,13 @@ public class MinMax {
             }
         }
 
+
         // TODO: initialize a tracking variable to arr[0]
+
 
         // TODO: loop from index 1 to arr.length - 1
         //       if arr[i] is greater than your tracking variable, update it
+
 
         // TODO: return the tracking variable
         return t; // placeholder

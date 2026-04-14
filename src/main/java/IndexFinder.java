@@ -1,6 +1,7 @@
 public class IndexFinder {
 
-    /***
+
+    /**
      * Returns the index of the smallest value in the array.
      * If the minimum value appears more than once, return the index
      * of its FIRST occurrence.
@@ -16,7 +17,7 @@ public class IndexFinder {
      *   arr = {5, 3, 8, 1, 6}  →  returns 3  (value 1 is at index 3)
      *   arr = {2, 9, 2, 5}     →  returns 0  (first occurrence of 2)
      */
-    public static int indexOfMin(int[] arr) {
+    public int indexOfMin(int[] arr) {
         // TODO: initialize a variable to track the index of the minimum (start at 0)
         int t = 0;
         for(int i = 1; i < arr.length; i++) {
@@ -27,9 +28,11 @@ public class IndexFinder {
         // TODO: loop from index 1 to arr.length - 1
         //       if arr[i] is strictly less than arr[your tracked index], update your tracked index
 
+
         // TODO: return the tracked index
         return t; // placeholder
     }
+
 
     /***
      * Returns the index of the largest value in the array.
@@ -45,7 +48,7 @@ public class IndexFinder {
      *   arr = {5, 3, 8, 1, 6}  →  returns 2  (value 8 is at index 2)
      *   arr = {9, 2, 9, 5}     →  returns 0  (first occurrence of 9)
      */
-    public static int indexOfMax(int[] arr) {
+    public int indexOfMax(int[] arr) {
         int t = 0;
         for(int i = 1; i < arr.length; i++) {
             if(arr[i] > arr[t]) {
@@ -54,8 +57,10 @@ public class IndexFinder {
         }
         // TODO: initialize a variable to track the index of the maximum (start at 0)
 
+
         // TODO: loop from index 1 to arr.length - 1
         //       if arr[i] is strictly greater than arr[your tracked index], update your tracked index
+
 
         // TODO: return the tracked index
         return t; // placeholder

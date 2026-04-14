@@ -1,5 +1,6 @@
 public class Counter {
 
+
     /***
      * Returns the number of elements strictly greater than the given threshold.
      *
@@ -13,9 +14,10 @@ public class Counter {
      *   arr = {3, 7, 2, 8, 5}, threshold = 4  →  returns 3  (7, 8, 5)
      *   arr = {1, 2, 3},       threshold = 5  →  returns 0
      */
-    public static int countAbove(int[] arr, int threshold) {
+    public int countAbove(int[] arr, int threshold) {
         // TODO: initialize a counter to 0
         int counter = 0;
+
 
         // TODO: loop through arr
         //       if the element is strictly greater than threshold, increment the counter
@@ -25,9 +27,11 @@ public class Counter {
             }
         }
 
+
         // TODO: return the counter
         return counter; // placeholder
     }
+
 
     /***
      * Returns the number of elements strictly less than the given threshold.
@@ -41,7 +45,7 @@ public class Counter {
      *   arr = {3, 7, 2, 8, 5}, threshold = 4  →  returns 2  (3, 2)
      *   arr = {6, 7, 8},       threshold = 5  →  returns 0
      */
-    public static int countBelow(int[] arr, int threshold) {
+    public int countBelow(int[] arr, int threshold) {
         // TODO: initialize a counter to 0
         int counter = 0;
         // TODO: loop through arr
@@ -55,6 +59,7 @@ public class Counter {
         return counter; // placeholder
     }
 
+
     /**
      * Returns the number of elements exactly equal to the given target.
      *
@@ -67,7 +72,7 @@ public class Counter {
      *   arr = {4, 2, 4, 7, 4}, target = 4  →  returns 3
      *   arr = {1, 2, 3},       target = 9  →  returns 0
      */
-    public static int countEqual(int[] arr, int target) {
+    public int countEqual(int[] arr, int target) {
         // TODO: initialize a counter to 0
         int counter = 0;
         // TODO: loop through arr
