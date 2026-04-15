@@ -29,7 +29,7 @@ public class Counter {
         return counter; // placeholder
     }
 
-    /***
+    /**
      * Returns the number of elements strictly less than the given threshold.
      *
      * Traversal strategy: same pattern as countAbove(), but the condition

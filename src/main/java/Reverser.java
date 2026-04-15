@@ -1,6 +1,6 @@
 public class Reverser {
 
-    /***
+    /**
      * Reverses the order of elements in the array in place.
      * The original array is modified; nothing is returned.
      *
