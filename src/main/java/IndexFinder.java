@@ -1,6 +1,6 @@
 public class IndexFinder {
 
-    /***
+    /*****
      * Returns the index of the smallest value in the array.
      * If the minimum value appears more than once, return the index
      * of its FIRST occurrence.

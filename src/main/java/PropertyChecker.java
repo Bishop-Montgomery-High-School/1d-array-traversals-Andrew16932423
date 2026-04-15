@@ -33,7 +33,7 @@ public class PropertyChecker {
         return f; // placeholder
     }
 
-    /**
+    /****
      * Returns true if every element in the array is positive (> 0),
      * false otherwise.
      *
