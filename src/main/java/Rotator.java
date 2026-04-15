@@ -1,6 +1,7 @@
 public class Rotator {
 
-    /**
+
+    /***
      * Rotates all elements one position to the LEFT.
      * The element at index 0 wraps around to the last position.
      * The original array is modified in place; nothing is returned.
@@ -18,14 +19,20 @@ public class Rotator {
      */
     public void rotateLeft(int[] arr) {
         // TODO: save arr[0] into a temporary variable
+        int temp = arr[0];
 
+        for (int i = 0; i < arr.length - 1; i++) {
+            arr[i] = arr[i + 1];
+        }
+
+        arr[arr.length - 1] = temp;
         // TODO: loop from i = 0 to arr.length - 2
         //       assign arr[i + 1] to arr[i]
 
         // TODO: place the saved value at arr[arr.length - 1]
     }
 
-    /**
+    /***
      * Rotates all elements one position to the RIGHT.
      * The element at index arr.length - 1 wraps around to the first position.
      * The original array is modified in place; nothing is returned.
@@ -46,6 +53,11 @@ public class Rotator {
      *   {7}                   →  {7}
      */
     public void rotateRight(int[] arr) {
+        int temp = arr[arr.length - 1];
+        for (int i = arr.length - 1; i >= 1; i--) {
+            arr[i] = arr[i - 1];
+        }
+        arr[0] = temp;
         // TODO: save arr[arr.length - 1] into a temporary variable
 
         // TODO: loop from i = arr.length - 1 DOWN to i = 1
