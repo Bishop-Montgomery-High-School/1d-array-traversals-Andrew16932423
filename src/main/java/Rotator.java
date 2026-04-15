@@ -32,7 +32,7 @@ public class Rotator {
         // TODO: place the saved value at arr[arr.length - 1]
     }
 
-    /****
+    /***
      * Rotates all elements one position to the RIGHT.
      * The element at index arr.length - 1 wraps around to the first position.
      * The original array is modified in place; nothing is returned.

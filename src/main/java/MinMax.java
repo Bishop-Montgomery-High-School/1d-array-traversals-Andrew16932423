@@ -29,7 +29,7 @@ public class MinMax {
         return t; // placeholder
     }
 
-    /****
+    /***
      * Returns the largest value in the array.
      *
      * Traversal strategy: same pattern as min(), but update when you
